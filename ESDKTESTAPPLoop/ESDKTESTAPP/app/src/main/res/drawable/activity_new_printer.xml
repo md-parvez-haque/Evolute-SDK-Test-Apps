@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtview_printdata"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="Status"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_service_connection"
+                    android:layout_width="150dp"
+                    android:layout_height="75dp"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="Bind Service" />
+
+                <Button
+                    android:id="@+id/btn_service_disconnection"
+                    android:layout_width="150dp"
+                    android:layout_height="75dp"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="UnBind Service" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_PowerON"
+                    android:layout_width="125dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="PowerON" />
+
+                <Button
+                    android:id="@+id/btn_PowerOFF"
+                    android:layout_width="125dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="PowerOFF" />
+                <Button
+                    android:id="@+id/btn_update_power"
+                    android:layout_width="125dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="PowerOFF" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_CheckPaper"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="Checkpaper" />
+
+                <Button
+                    android:id="@+id/btn_PrinterStatus"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="printer Status" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_Printline"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="Print line" />
+
+                <Button
+                    android:id="@+id/btn_RawData"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="Raw Data" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_VersionInfo"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="version info" />
+
+                <Button
+                    android:id="@+id/btn_iFlushBuffer"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="iFlushBuffer" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_getReturnCode"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="returncode" />
+
+                <Button
+                    android:id="@+id/btn_Testprint"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="Testprint" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/edt_TextEnter"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="8dp"
+                    android:focusable="true"
+                    android:hint="Enter Text" />
+
+                <Button
+                    android:id="@+id/btn_PrintText"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="Print Text" />
+                <Button
+                    android:id="@+id/btn_PrintTextcont"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="Print continue" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <Spinner
+                    android:id="@+id/spn_FontType"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:hint="Enter Text" />
+
+                <Spinner
+                    android:id="@+id/spn_Alignment"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/teal_700" />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_TextString"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="TextString" />
+                <Button
+                    android:id="@+id/btn_TextArray"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="TextArray" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_SelectImage"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="8dp"
+                    android:text="Select img"
+                    android:backgroundTint="@color/teal_700" />
+
+                <Button
+                    android:id="@+id/btn_PrintImage"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="print img" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/edt_barcodeData"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:hint="Enter  Barcodedata"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/edt_BarcodeHeight"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:hint="Barcode Height"
+                    android:inputType="number" />
+                <Spinner
+                    android:id="@+id/spn_barcodeType"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/teal_700" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_printEANBarcode"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="print EANBarCode" />
+
+                <Button
+                    android:id="@+id/btn_iPrintCode128_Barcode"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="iPrintCode128_Barcode" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/edt_QRcodeData"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:hint="Enter QR data"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Spinner
+
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="8dp"
+                    android:id="@+id/spn_ImageAlign"
+                    android:backgroundTint="@color/teal_700"
+                    android:outlineProvider="background" />
+
+                <Button
+                    android:id="@+id/btn_PrintQR"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="print QR" />
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/edt_LeftText"
+                        android:layout_width="120dp"
+                        android:layout_height="60dp"
+                        android:layout_margin="8dp"
+                        android:focusable="true"
+                        android:hint="Enter LeftText"
+                        tools:ignore="DuplicateIds" />
+                    <EditText
+                        android:id="@+id/edt_CenterText"
+                        android:layout_width="120dp"
+                        android:layout_height="60dp"
+                        android:layout_margin="8dp"
+                        android:focusable="true"
+                        android:hint="EnterCenterText" />
+                    <EditText
+                        android:id="@+id/edt_RightText"
+                        android:layout_width="120dp"
+                        android:layout_height="60dp"
+                        android:layout_margin="8dp"
+                        android:focusable="true"
+                        android:hint="EnterRightText" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/edt_FontSize"
+                    android:layout_width="130dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="8dp"
+                    android:focusable="true"
+                    android:hint="Enter Fontsize" />
+                <Button
+                    android:id="@+id/btn_Justification"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="JustificationText" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
+
+
+
+
