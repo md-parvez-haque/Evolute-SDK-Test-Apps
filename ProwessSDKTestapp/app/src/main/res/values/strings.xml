@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name" translatable="false">Demo App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="BT_Connection">BT/BLE Connection</string>
+    <string name="BT_Config"> Communication Config</string>
+    <string name="Select_Baud_Rate">Select Baud Rate</string>
+    <string name="Bluetooth_Disconnection"> BT/BLE Disconnection</string>
+    <string name="BLE_Bluetooth_Connection"> BLE Connection</string>
+    <string name="BLE_Bluetooth_Disconnection"> BLE Disconnection</string>
+    <string name="Battery_Status">Battery Status</string>
+    <string name="Information">Information</string>
+    <string name="Exit">Exit</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="action_info">Information</string>
+    <string name="config">BT Config</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="verinfo">Version:V2.00.00-07</string>
+
+    <string-array name="news_Sites">
+        <item>Peripherals</item>
+        <item>Printer</item>
+        <item>FPS </item>
+        <item>Magcard</item>
+        <item>Smartcard</item>
+        <item>Serial Port</item>
+        <item>Clscr</item>
+        <item>SAM</item>
+        <item>Device Details</item>
+    </string-array>
+    <string name="title">This is a Title</string>
+    <string name="desc">This is a description</string>
+    <string name="printer">Printer</string>
+    <string name="fps">FPS</string>
+    <string name="Magneticcard">Magcard</string>
+    <string name="smartcard">Smartcard</string>
+    <string name="serial">Serial Port</string>
+    <string name="Clscr">Clscr</string>
+    <string name="SAM">Sam</string>
+    <string name="Details">Device Details</string>
+
+    <string name="image">Thumbnail</string>
+    <!--  <array name="icons">
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+    </array>-->
+
+    <string name="actMain_link_device_info_title">Selected Device :</string>
+    <string name="actMain_device_info">%1$s</string>
+    <string name="actMain_btn_pair">Pair</string>
+    <string name="actMain_btn_comm">Connect</string>
+    <string name="actMain_tv_hint_service_uuid_not_bond">Please pair with the Device.</string>
+    <string name="actMain_msg_does_not_support_uuid_service">Application BT version does not support this Mobile.</string>
+    <string name="actMain_msg_bluetooth_Bonding">pairing&#8230;</string>
+    <string name="actMain_msg_device_connecting">Searching device&#8230;</string>
+    <string name="actMain_msg_device_usb_connecting">Processing&#8230;</string>
+    <string name="actMain_msg_device_connect_fail">Communication failure, Please Pair the Device &amp; retry</string>
+    <string name="actMain_msg_bluetooth_Bond_Success">Pairing successful</string>
+    <string name="actMain_msg_bluetooth_Bond_fail">Pairing failed</string>
+    <string name="actMain_msg_pair_pwd_error">Pairing password must be 4 digits</string>
+    <string name="actMain_menu_rescan">Rescan</string>
+    <string name="actDiscovery_msg_select_device">Select the device you need to connect</string>
+    <string name="actDiscovery_msg_not_find_device">Devices not found</string>
+    <string name="actDiscovery_msg_scaning_device">Searching for Bluetooth devices, Please wait&#8230;</string>
+    <string name="actDiscovery_msg_starting_device">Bluetooth is turned on&#8230;</string>
+    <string name="actDiscovery_msg_start_bluetooth_fail">Bluetooth turn on failed</string>
+    <string name="actDiscovery_msg_bluetooth_not_start">Bluetooth is not enabled</string>
+    <string name="actDiscovery_menu_scan">Scan</string>
+    <string name="actDiscovery_bond_bonded">Bonded</string>
+    <string name="actDiscovery_bond_nothing">Nothing</string>
+    <string name="actByteStream_btn_send_desc">Send button</string>
+    <string name="actByteStream_tv_receive_text">Data receive</string>
+    <string name="bardrate9600">9600 Bps / IBC\nDefault Selection</string>
+    <string name="bardrate115200">115200 Baud Rate</string>
+    <string name="Ibc">IBC</string>
+    <string name="device_type_bredr">BR/EDR Bluetooth</string>
+    <string name="device_type_ble">Bluetooth Energy is Low</string>
+    <string name="msg_msg_bt_connect_lost">Bluetooth device connection is lost, try to reconnect</string>
+    <string name="Connect">Connect</string>
+    <string name="not_connected">Mobile is not connected with device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Exiting Application.</string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_not_connected">not connected</string>
+    <string name="actMain_msg_device_connect_succes">Bluetooth connection Successful</string>
+    <string name="actMain_msg_device_connect_not_succes">Bluetooth connection Not Successful</string>
+
+    <string name="Hello_world">Hello</string>
+    <!-- DeviceListActivity -->
+    <string name="scanning">Scanning for devices...</string>
+    <string name="select_device">Please Select Device</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="note">Note</string>
+    <string name="device_type_dumo">Duplex mode Bluetooth</string>
+    <string name="dialog_title_sys_err">System Error</string>
+    <string name="btn_ok">OK</string>
+    <string name="radio_9600">9600</string>
+    <string name="radio_11520">115200</string>
+    <string name="ibc">IBC</string>
+    <!-- Options Menu -->
+    <string name="information">This application has been designed to work with Evolute Systems Leopard.\n\nLeopard Prowess SDK is available from Evolute Systems as per your request.</string>
+    <string name="btn_display">Continue</string>
+    <string name="country_prompt">Choose a Language</string>
+    <string name="please_wait">Please Wait....</string>
+
+</resources>

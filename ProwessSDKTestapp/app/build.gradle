@@ -1,0 +1,58 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.example.serialnumberefetching'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.serialnumberefetching"
+        minSdk 24
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+
+
+    implementation files('libs\\Prowess_SDK_v04.00.01-01.jar')
+//    implementation files('libs\\Prowess_SDK_v04.00.01-01.jar')
+//    implementation files('libs\\Prowess_SDK_v04.00.01-00.jar')
+//    implementation files('libs\\Prowess_SDK_v03.01.00-08.jar')
+//    implementation files('libs\\Prowess_SDK_v04.00.00-00.jar')
+//    implementation files('libs\\Prowess_SDK_v03.01.00-00.jar')
+//    implementation files('libs\\Prowess_SDK_v03.01.00-01.jar')
+//    implementation files('libs\\Prowess_SDK_v03.01.00-02.jar')
+//    implementation files('libs\\Prowess_SDK_v03.01.00-03.jar')
+//    implementation files('libs\\Prowess_SDK_v03.01.00-04.jar')
+//    implementation files('libs\\Prowess_SDK_v03.01.00-05.jar')
+//    implementation files('libs\\Prowess_SDK_v03.01.00-06.jar')
+//    implementation files('libs\\Prowess_SDK_v03.01.00-07.jar')
+//    implementation files('libs\\Prowess_SDK_v03.01.01-07.jar')
+//    implementation files('libs\\Prowess_SDK_v03.01.01-02.jar')
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+
+}
