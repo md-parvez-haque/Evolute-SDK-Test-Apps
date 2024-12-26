@@ -1067,6 +1067,7 @@ public class PrinterActivity extends AppCompatActivity {
 //                    PrinterService.iUpdateBuffer(" CARDHOLDER SIGNATURE\n");
 //                    PrinterService.iUpdateBuffer(" CARDHOLDER SIGNATURE\n");
 //                    a = PrinterService.iStartPrinting();
+//                    asdfg
 
                     Log.e(TAG, "Receipt print is : " + a);
 
